@@ -20,7 +20,7 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep,allowshrinking,allowobfuscation enum com.freshfastfood.**
+-keep,allowshrinking,allowobfuscation enum com.freshfastfoods.**
 -optimizations !class/unboxing/enum
 
 -optimizationpasses 5

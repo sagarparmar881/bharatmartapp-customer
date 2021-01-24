@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.freshfastfood">
+    package="com.freshfastfoods">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -9,7 +9,7 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
-        android:name=".MyApplication"
+        android:name="com.freshfastfoods.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,104 +19,104 @@
         android:usesCleartextTraffic="true"
 
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".activity.PaypalActivity" />
-        <activity android:name=".activity.ChanegPasswordActivity" />
+        <activity android:name="com.freshfastfoods.activity.PaypalActivity" />
+        <activity android:name="com.freshfastfoods.activity.ChanegPasswordActivity" />
         <activity
-            android:name=".activity.BaseActivity"
+            android:name="com.freshfastfoods.activity.BaseActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.AboutsActivity"
+            android:name="com.freshfastfoods.activity.AboutsActivity"
             android:label="About"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.TramsAndConditionActivity"
+            android:name="com.freshfastfoods.activity.TramsAndConditionActivity"
             android:label="Terms &amp; Conditions"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
 
         <activity
-            android:name=".activity.PrivecyPolicyActivity"
+            android:name="com.freshfastfoods.activity.PrivecyPolicyActivity"
             android:label="Privacy &amp; Policy"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.ContectusActivity"
+            android:name="com.freshfastfoods.activity.ContectusActivity"
             android:label="Contact us"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
 
         <activity
-            android:name=".activity.CoupunActivity"
+            android:name="com.freshfastfoods.activity.CoupunActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.NotificationActivity"
+            android:name="com.freshfastfoods.activity.NotificationActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.ItemDetailsActivity"
+            android:name="com.freshfastfoods.activity.ItemDetailsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.SelectAreaActivity"
+            android:name="com.freshfastfoods.activity.SelectAreaActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.InfoActivity"
+            android:name="com.freshfastfoods.activity.InfoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.ForgotActivity"
+            android:name="com.freshfastfoods.activity.ForgotActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.MyOrderListActivity"
+            android:name="com.freshfastfoods.activity.MyOrderListActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.ProfileActivity"
+            android:name="com.freshfastfoods.activity.ProfileActivity"
             android:label="My Profile"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.AddressActivity"
+            android:name="com.freshfastfoods.activity.AddressActivity"
             android:label="My Address"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.FeedBackActivity"
+            android:name="com.freshfastfoods.activity.FeedBackActivity"
             android:label="FeedBack"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.RatesActivity"
+            android:name="com.freshfastfoods.activity.RatesActivity"
             android:label="Rate us"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.HomeActivity"
+            android:name="com.freshfastfoods.activity.HomeActivity"
             android:label="@string/title_activity_home"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateAlwaysHidden|adjustNothing"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.SingActivity"
+            android:name="com.freshfastfoods.activity.SingActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme2"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.LoginActivity"
+            android:name="com.freshfastfoods.activity.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme2"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.FirstActivity"
+            android:name="com.freshfastfoods.activity.FirstActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             tools:ignore="LockedOrientationActivity">
@@ -127,24 +127,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.PopRatesActivity"
+            android:name="com.freshfastfoods.activity.PopRatesActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Dialog"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.RazerpayActivity"
+            android:name="com.freshfastfoods.activity.RazerpayActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.freshfastfoods.MainActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.NotificationDetailsActivity"
+            android:name="com.freshfastfoods.activity.NotificationDetailsActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.VerifyPhoneActivity"
+            android:name="com.freshfastfoods.activity.VerifyPhoneActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
     </application>

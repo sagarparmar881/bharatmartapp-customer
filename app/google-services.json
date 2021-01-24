@@ -1,121 +1,41 @@
 {
   "project_info": {
-    "project_number": "37533452916",
-    "firebase_url": "https://festvid-33316.firebaseio.com",
-    "project_id": "festvid-33316",
-    "storage_bucket": "festvid-33316.appspot.com"
+    "project_number": "591731190970",
+    "project_id": "bharat-mart-app",
+    "storage_bucket": "bharat-mart-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:37533452916:android:e01f739aa080f560af1f21",
-        "android_client_info": {
-          "package_name": "com.best.quiz"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "37533452916-hrgl8fc8gf8bslqevr55556b9qmuo4q4.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCMR2OG4ReUC0cnHkdixMqYobg_-tY7P74"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "37533452916-hrgl8fc8gf8bslqevr55556b9qmuo4q4.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:37533452916:android:8c4e31ebf8f79af6af1f21",
-        "android_client_info": {
-          "package_name": "com.cscode.fishmeat"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "37533452916-hrgl8fc8gf8bslqevr55556b9qmuo4q4.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCMR2OG4ReUC0cnHkdixMqYobg_-tY7P74"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "37533452916-hrgl8fc8gf8bslqevr55556b9qmuo4q4.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:37533452916:android:0054fd3fafb0d9dbaf1f21",
-        "android_client_info": {
-          "package_name": "com.festvid.feelthebeats.videolyrics"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "37533452916-hrgl8fc8gf8bslqevr55556b9qmuo4q4.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCMR2OG4ReUC0cnHkdixMqYobg_-tY7P74"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "37533452916-hrgl8fc8gf8bslqevr55556b9qmuo4q4.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:37533452916:android:8b3f1c9fc1d2bc5daf1f21",
+        "mobilesdk_app_id": "1:591731190970:android:498bec32e914ef0cf32683",
         "android_client_info": {
           "package_name": "com.freshfastfood"
         }
       },
       "oauth_client": [
         {
-          "client_id": "37533452916-hrgl8fc8gf8bslqevr55556b9qmuo4q4.apps.googleusercontent.com",
+          "client_id": "591731190970-p06cc4dclq433t72qrupkd4ndv5f8g20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.freshfastfood",
+            "certificate_hash": "9781ad3a7bb8d3a3a51ea104cf1013767c43d870"
+          }
+        },
+        {
+          "client_id": "591731190970-4kulg2s8ac7sc5qtkjg0o3u3iibqgcvo.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCMR2OG4ReUC0cnHkdixMqYobg_-tY7P74"
+          "current_key": "AIzaSyBWvQ0z8q1osLv-44u14BCbg_VWmQgMj-k"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "37533452916-hrgl8fc8gf8bslqevr55556b9qmuo4q4.apps.googleusercontent.com",
+              "client_id": "591731190970-4kulg2s8ac7sc5qtkjg0o3u3iibqgcvo.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -124,27 +44,35 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:37533452916:android:02876ce5c37448b1af1f21",
+        "mobilesdk_app_id": "1:591731190970:android:fc83d513788ec63af32683",
         "android_client_info": {
-          "package_name": "com.grocery.shope"
+          "package_name": "com.freshfastfoods"
         }
       },
       "oauth_client": [
         {
-          "client_id": "37533452916-hrgl8fc8gf8bslqevr55556b9qmuo4q4.apps.googleusercontent.com",
+          "client_id": "591731190970-8fsqs0dv62u9pv1m6ik0qn4416fhv7gi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.freshfastfoods",
+            "certificate_hash": "9781ad3a7bb8d3a3a51ea104cf1013767c43d870"
+          }
+        },
+        {
+          "client_id": "591731190970-4kulg2s8ac7sc5qtkjg0o3u3iibqgcvo.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCMR2OG4ReUC0cnHkdixMqYobg_-tY7P74"
+          "current_key": "AIzaSyBWvQ0z8q1osLv-44u14BCbg_VWmQgMj-k"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "37533452916-hrgl8fc8gf8bslqevr55556b9qmuo4q4.apps.googleusercontent.com",
+              "client_id": "591731190970-4kulg2s8ac7sc5qtkjg0o3u3iibqgcvo.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
