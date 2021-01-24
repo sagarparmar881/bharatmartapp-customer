@@ -8,9 +8,10 @@
     tools:context=".activity.FirstActivity">
 
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
-        android:src="@drawable/firsticon" />
+        android:src="@drawable/bharatmartlogo"
+        android:padding="50dp"/>
 </LinearLayout>

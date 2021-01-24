@@ -10,7 +10,8 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        >
 
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
@@ -20,8 +21,8 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="8dp"
             android:layout_marginBottom="12dp"
-            app1:cardCornerRadius="12dp"
-            app1:cardElevation="6dp">
+            app1:cardCornerRadius="0dp"
+            app1:cardElevation="0dp">
 
 
             <ImageView
@@ -37,7 +38,7 @@
                 android:id="@+id/txt_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
+                android:layout_gravity="center|bottom"
                 android:gravity="center_vertical"
                 android:padding="5dp"
                 android:singleLine="true"
