@@ -132,6 +132,7 @@ public class ItemListFragment extends Fragment implements GetResult.MyListener {
                 int totalItem = 0;
                 while (res.moveToNext()) {
                     MyCart rModel = new MyCart();
+                    //rModel.setCid("4500");
                     rModel.setCost(res.getString(5));
                     rModel.setQty(res.getString(6));
                     rModel.setDiscount(res.getInt(7));

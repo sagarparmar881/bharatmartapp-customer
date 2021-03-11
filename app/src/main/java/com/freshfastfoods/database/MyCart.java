@@ -9,6 +9,7 @@ public class MyCart {
     public String cost;
     public String qty;
     public int discount;
+    public String cid;
 
     public int getDiscount() {
         return discount;
@@ -72,5 +73,13 @@ public class MyCart {
 
     public void setQty(String qty) {
         this.qty = qty;
+    }
+
+    public String getCid() {
+        return cid;
+    }
+
+    public void setCid(String cid) {
+        this.cid = cid;
     }
 }

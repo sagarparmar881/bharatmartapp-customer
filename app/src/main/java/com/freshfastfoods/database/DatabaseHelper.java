@@ -12,6 +12,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String DATABASE_NAME = "mydatabase.db";
     public static final String TABLE_NAME = "items";
     public static final String ICOL_1 = "ID";
+
     public static final String ICOL_2 = "PID";
     public static final String ICOL_3 = "image";
     public static final String ICOL_4 = "title";
@@ -19,6 +20,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String ICOL_6 = "cost";
     public static final String ICOL_7 = "qty";
     public static final String ICOL_8 = "discount";
+    public static final String ICOL_9 = "cid";
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, 1);
@@ -26,7 +28,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table " + TABLE_NAME + " (ID INTEGER PRIMARY KEY AUTOINCREMENT, PID TEXT , image TEXT ,title TEXT , weight TEXT , cost TEXT, qty TEXT , discount int )");
+        db.execSQL("create table " + TABLE_NAME + " (ID INTEGER PRIMARY KEY AUTOINCREMENT, PID TEXT , image TEXT ,title TEXT , weight TEXT , cost TEXT, qty TEXT , discount int, cid int )");
     }
 
     @Override
@@ -46,6 +48,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             contentValues.put(ICOL_6, rModel.getCost());
             contentValues.put(ICOL_7, rModel.getQty());
             contentValues.put(ICOL_8, rModel.getDiscount());
+            //rModel.setCid("508");
+            contentValues.put(ICOL_9, rModel.getCid());
+
             long result = db.insert(TABLE_NAME, null, contentValues);
             if (result == -1) {
                 return false;

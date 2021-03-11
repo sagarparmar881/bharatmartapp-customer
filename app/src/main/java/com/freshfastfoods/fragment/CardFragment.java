@@ -99,6 +99,7 @@ public class CardFragment extends Fragment {
             rModel.setCost(res.getString(5));
             rModel.setQty(res.getString(6));
             rModel.setDiscount(res.getInt(7));
+            rModel.setCid(res.getString(8));
             myCarts.add(rModel);
         }
 
@@ -154,6 +155,7 @@ public class CardFragment extends Fragment {
             myCart.setWeight(cart.getWeight());
             myCart.setCost(cart.getCost());
             myCart.setDiscount(cart.getDiscount());
+            myCart.setCid(cart.getCid());
             int qrt = helper.getCard(myCart.getPid(), myCart.getCost());
             if (qrt != -1) {
                 count[0] = qrt;
@@ -294,6 +296,7 @@ public class CardFragment extends Fragment {
         }
         while (res.moveToNext()) {
             MyCart rModel = new MyCart();
+            //rModel.setCid("508");
             rModel.setCost(res.getString(5));
             rModel.setQty(res.getString(6));
             rModel.setDiscount(res.getInt(7));

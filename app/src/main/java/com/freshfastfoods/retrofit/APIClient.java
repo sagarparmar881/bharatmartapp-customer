@@ -10,7 +10,7 @@ public class APIClient {
     static Retrofit retrofit = null;
     //public static String baseUrl = "http://thebharatmartapp.atwebpages.com/";
     //public static String baseUrl = "http://hungrygrocerydelivery.cscodetech.com/";
-    public static String baseUrl = "http://192.168.0.168/";
+    public static String baseUrl = "http://192.168.1.4/";
     public static final String APPEND_URL = "/api/";
 
     public static UserService getInterface() {

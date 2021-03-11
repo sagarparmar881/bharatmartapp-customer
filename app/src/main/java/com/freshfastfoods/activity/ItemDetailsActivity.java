@@ -175,6 +175,7 @@ public class ItemDetailsActivity extends AppCompatActivity {
         myCart.setWeight(price.getProductType());
         myCart.setCost(price.getProductPrice());
         myCart.setDiscount(datum.getmDiscount());
+        myCart.setCid(datum.getCid());
         int qrt = helper.getCard(myCart.getPid(), myCart.getCost());
         if (qrt != -1) {
             count[0] = qrt;
@@ -219,7 +220,7 @@ public class ItemDetailsActivity extends AppCompatActivity {
                 count[0] = count[0] + 1;
                 txtcount.setText("" + count[0]);
                 myCart.setQty(String.valueOf(count[0]));
-                Log.e("INsert", "--> " + helper.insertData(myCart));
+                Log.e("Insert", "--> " + helper.insertData(myCart));
                 updateItem();
                 if (itemListFragment != null)
                     itemListFragment.updateItem();
@@ -235,7 +236,7 @@ public class ItemDetailsActivity extends AppCompatActivity {
                 count[0] = count[0] + 1;
                 txtcount.setText("" + count[0]);
                 myCart.setQty(String.valueOf(count[0]));
-                Log.e("INsert", "--> " + helper.insertData(myCart));
+                Log.e("Insert", "--> " + helper.insertData(myCart));
                 updateItem();
                 if (itemListFragment != null)
                     itemListFragment.updateItem();
