@@ -90,7 +90,7 @@ public class SubCategoryFragment extends Fragment implements GetResult.MyListene
         categoryList = new ArrayList<>();
         sessionManager = new SessionManager(getActivity());
         user = sessionManager.getUserDetails("");
-        recyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 3));
+        recyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 1));
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         getSubCategory();
         return view;

@@ -104,7 +104,7 @@ public class HomeFragment extends Fragment implements CategoryAdp.RecyclerTouchL
         bannerDatumList = new ArrayList<>();
         sessionManager = new SessionManager(mContext);
         homeListFragment = this;
-        recyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 3));
+        recyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 1));
         LinearLayoutManager mLayoutManager1 = new LinearLayoutManager(mContext);
         mLayoutManager1.setOrientation(LinearLayoutManager.HORIZONTAL);
         recyclerReleted.setLayoutManager(mLayoutManager1);

@@ -75,7 +75,7 @@ public class CategoryFragment extends Fragment implements CategoryAdp.RecyclerTo
         categoryList = new ArrayList<>();
         sessionManager = new SessionManager(getActivity());
         user = sessionManager.getUserDetails("");
-        recyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 3));
+        recyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 1));
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         HomeActivity.getInstance().setFrameMargin(60);
         getCategory();

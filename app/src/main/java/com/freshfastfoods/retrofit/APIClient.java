@@ -1,6 +1,5 @@
 package com.freshfastfoods.retrofit;
 
-
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
@@ -12,6 +11,7 @@ public class APIClient {
     //public static String baseUrl = "http://hungrygrocerydelivery.cscodetech.com/";
     public static String baseUrl = "http://192.168.1.4/";
     public static final String APPEND_URL = "/api/";
+    
 
     public static UserService getInterface() {
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
@@ -27,5 +27,5 @@ public class APIClient {
 
         return retrofit.create(UserService.class);
     }
-
 }
+

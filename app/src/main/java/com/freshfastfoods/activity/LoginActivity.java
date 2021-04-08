@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -40,6 +42,13 @@ public class LoginActivity extends AppCompatActivity implements GetResult.MyList
     SessionManager sessionManager;
     CustPrograssbar custPrograssbar;
 
+    //pre-defined logins
+    String[] emails = {
+            "sagar@bharatmart.com", "shivam@bharatmart.com", "mihir@bharatmart.com", "harshil@bharatmart.com",
+            "kartik@bharatmart.com", "jinesh@bharatmart.com", "shubh@bharatmart.com", "pruthvi@bharatmart.com",
+            "divyesh@bharatmart.com", "dhruvil@bharatmart.com"};
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +56,15 @@ public class LoginActivity extends AppCompatActivity implements GetResult.MyList
         ButterKnife.bind(this);
         custPrograssbar = new CustPrograssbar();
         sessionManager = new SessionManager(LoginActivity.this);
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.select_dialog_singlechoice, emails);
+        AutoCompleteTextView acTextView = (AutoCompleteTextView) findViewById(R.id.ed_username);
+        acTextView.setAdapter(adapter);
+        acTextView.setThreshold(1);
+
+        //Set Default Password
+        edPassword.setText("admin");
+
     }
     @OnClick({R.id.btn_login, R.id.btn_sign, R.id.txt_forgotpassword})
     public void onViewClicked(View view) {

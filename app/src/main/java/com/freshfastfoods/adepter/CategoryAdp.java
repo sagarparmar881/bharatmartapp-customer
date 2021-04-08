@@ -35,7 +35,7 @@ public class CategoryAdp extends RecyclerView.Adapter<CategoryAdp.MyViewHolder> 
         public MyViewHolder(View view) {
             super(view);
             title = (TextView) view.findViewById(R.id.txt_title);
-            thumbnail = view.findViewById(R.id.imageView);
+            //thumbnail = view.findViewById(R.id.imageView);
         }
     }
 
@@ -56,9 +56,10 @@ public class CategoryAdp extends RecyclerView.Adapter<CategoryAdp.MyViewHolder> 
     public void onBindViewHolder(final MyViewHolder holder, int position) {
 
         CatItem category = categoryList.get(position);
-        holder.title.setText(category.getCatname() + "(" + category.getCount() + ")");
-        Glide.with(mContext).load(APIClient.baseUrl + "/" + category.getCatimg()).thumbnail(Glide.with(mContext).load(R.drawable.ezgifresize)).into(holder.thumbnail);
-        holder.thumbnail.setOnClickListener(new View.OnClickListener() {
+        //holder.title.setText(category.getCatname() + "(" + category.getCount() + ")");
+        holder.title.setText(category.getCatname());
+        //Glide.with(mContext).load(APIClient.baseUrl + "/" + category.getCatimg()).thumbnail(Glide.with(mContext).load(R.drawable.ezgifresize)).into(holder.thumbnail);
+        holder.title.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 

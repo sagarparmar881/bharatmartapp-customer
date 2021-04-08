@@ -49,9 +49,10 @@ public class SubCategoryAdp extends RecyclerView.Adapter<SubCategoryAdp.MyViewHo
     @Override
     public void onBindViewHolder(final MyViewHolder holder, int position) {
         SubcatItem category = categoryList.get(position);
-        holder.title.setText(category.getName() + "(" + category.getCount() + ")");
-        Glide.with(mContext).load(APIClient.baseUrl + "/" + category.getImg()).thumbnail(Glide.with(mContext).load(R.drawable.ezgifresize)).into(holder.thumbnail);
-        holder.thumbnail.setOnClickListener(new View.OnClickListener() {
+        //holder.title.setText(category.getName() + "(" + category.getCount() + ")");
+        holder.title.setText(category.getName());
+        //Glide.with(mContext).load(APIClient.baseUrl + "/" + category.getImg()).thumbnail(Glide.with(mContext).load(R.drawable.ezgifresize)).into(holder.thumbnail);
+        holder.title.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
