@@ -8,6 +8,8 @@
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
+
+
     <application
         android:name="com.freshfastfoods.MyApplication"
         android:allowBackup="true"
@@ -20,6 +22,7 @@
 
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name="com.freshfastfoods.activity.PaypalActivity" />
+
         <activity android:name="com.freshfastfoods.activity.ChanegPasswordActivity" />
         <activity
             android:name="com.freshfastfoods.activity.BaseActivity"
@@ -148,5 +151,6 @@
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
     </application>
+
 
 </manifest>

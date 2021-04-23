@@ -5,6 +5,8 @@ import android.content.Context;
 
 import com.onesignal.OneSignal;
 
+import io.customerly.Customerly;
+
 public class MyApplication extends Application {
     public static Context mContext;
 
@@ -16,5 +18,7 @@ public class MyApplication extends Application {
                 .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
                 .unsubscribeWhenNotificationsAreDisabled(true)
                 .init();
+        //Customerly.configure(this, "YOUR_CUSTOMERLY_APP_ID");
+        Customerly.configure(this, "b63cf0fd");
     }
 }

@@ -42,6 +42,7 @@ import com.google.android.material.appbar.AppBarLayout;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import io.customerly.Customerly;
 
 import static com.freshfastfoods.fragment.ItemListFragment.itemListFragment;
 import static com.freshfastfoods.fragment.OrderSumrryFragment.isorder;
@@ -381,8 +382,8 @@ public class HomeActivity extends AppCompatActivity {
                 break;
             case R.id.contect:
                 titleChange();
-
-                startActivity(new Intent(HomeActivity.this, ContectusActivity.class));
+                Customerly.openSupport(this);
+                //startActivity(new Intent(HomeActivity.this, ContectusActivity.class));
                 break;
             case R.id.logout:
                 if (sessionManager.getBooleanData(login)) {

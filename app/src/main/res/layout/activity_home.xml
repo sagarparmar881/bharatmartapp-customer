@@ -205,7 +205,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="3dp"
-                            android:text="Contact us"
+                            android:text="Live Chat"
                             android:textColor="@color/colorBalck"
                             android:textStyle="bold" />
 
