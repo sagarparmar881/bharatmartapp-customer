@@ -50,15 +50,28 @@ BharatMart uses a number of technologies to work properly:
 
 ## Screenshots
 
-![image](https://i.postimg.cc/ZKxDjCPm/Screenshot-20210403-120452.jpg)
-![image](https://i.postimg.cc/Wz6S9Hk8/Screenshot-20210403-120604.jpg)
-![image](https://i.postimg.cc/6Qk0BXVz/Screenshot-20210403-120619.jpg)
-![image](https://i.postimg.cc/FHnpnc7M/Screenshot-20210403-120622.jpg)
-![image](https://i.postimg.cc/c40FK0pb/Screenshot-20210403-120629.jpg)
-![image](https://i.postimg.cc/kGcFNR0h/Screenshot-20210403-120632.jpg)
-![image](https://i.postimg.cc/HW421Fr4/Screenshot-20210403-120640.jpg)
-![image](https://i.postimg.cc/G2vj25qR/Screenshot-20210403-120642.jpg)
-![image](https://i.postimg.cc/WpryF9hh/Screenshot-20210403-120648.jpg)
-![image](https://i.postimg.cc/L6DNLGR6/Screenshot-20210403-120651.jpg)
-![image](https://i.postimg.cc/MZysKvFB/Screenshot-20210403-120657.jpg)
-![image](https://i.postimg.cc/6pHbJg11/Screenshot-20210403-120701.jpg)
+Splash Screen             |  Home screen | Add new group
+:-------------------------:|:-------------------------:|:-------------------------:
+![1](https://i.postimg.cc/ZKxDjCPm/Screenshot-20210403-120452.jpg)  |  ![2](https://i.postimg.cc/Wz6S9Hk8/Screenshot-20210403-120604.jpg) | ![3](https://i.postimg.cc/6Qk0BXVz/Screenshot-20210403-120619.jpg)
+
+---
+
+Splash Screen             |  Home screen | Add new group
+:-------------------------:|:-------------------------:|:-------------------------:
+![1](https://i.postimg.cc/FHnpnc7M/Screenshot-20210403-120622.jpg)  |  ![2](https://i.postimg.cc/c40FK0pb/Screenshot-20210403-120629.jpg) | ![3](https://i.postimg.cc/kGcFNR0h/Screenshot-20210403-120632.jpg)
+
+---
+
+
+Splash Screen             |  Home screen | Add new group
+:-------------------------:|:-------------------------:|:-------------------------:
+![1](https://i.postimg.cc/HW421Fr4/Screenshot-20210403-120640.jpg)  |  ![2](https://i.postimg.cc/G2vj25qR/Screenshot-20210403-120642.jpg) | ![3](https://i.postimg.cc/WpryF9hh/Screenshot-20210403-120648.jpg)
+
+---
+
+Splash Screen             |  Home screen | Add new group
+:-------------------------:|:-------------------------:|:-------------------------:
+![1](https://i.postimg.cc/L6DNLGR6/Screenshot-20210403-120651.jpg)  |  ![2](https://i.postimg.cc/MZysKvFB/Screenshot-20210403-120657.jpg) | ![3](https://i.postimg.cc/6pHbJg11/Screenshot-20210403-120701.jpg)
+
+---
+
